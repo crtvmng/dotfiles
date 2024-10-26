@@ -1,0 +1,167 @@
+@import "./mocha.css";
+
+* {
+  font-family: "JetBrains Mono Nerd Font";
+  font-size: 17px;
+  min-height: 0;
+  margin: 0;
+}
+
+#modules-left {
+  /*border-left: 10px #ffffff;*/
+}
+
+#window{
+  border-radius: 1rem;
+  background-color: @surface0;
+  margin-right: 20px;
+  margin-left: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#modules-right {
+  border-left: 10px #ffffff;
+}
+
+window#waybar {
+  background-color: rgba(0,0,0,0); 
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#workspaces {
+  border-radius: 1rem;
+  margin: 5px;
+  margin-left: 0;
+  background-color: @surface0;
+  margin-left: 1rem;
+}
+
+#workspaces button {
+  color: @lavender;
+  border-radius: 1rem;
+  padding: 0.4rem;
+  margin-right: 0.4rem;
+}
+
+#workspaces button.active {
+  color: #fff;
+  border-radius: 1rem;
+}
+
+#workspaces button:hover {
+  color: @sapphire;
+  border-radius: 1rem;
+}
+
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#custom-launcher,
+#cpu,
+#custom-powermenu{
+  background-color: @surface0;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  margin: 5px 0;
+}
+
+#taskbar {
+  background-color: @surface0;
+  border-radius: 1rem;
+  margin: 5px;
+  margin-left: 1rem;
+}
+
+#taskbar button {
+    box-shadow: none;
+	text-shadow: none;
+	font-size: 4px;
+    padding: 0px;
+    border-radius: 1rem;
+    background-color: @surface0;
+    margin-left: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-right: 0px;
+    color: @wb-color;
+    animation: tb_normal 20s ease-in-out 1;
+}
+
+#taskbar button.active {
+    background: @wb-act-bg;
+    color: @wb-act-color;
+    padding-left: 12px;
+    background-color: @surface1;
+    padding-right: 12px;
+    animation: tb_active 20s ease-in-out 1;
+    transition: all 0.4s cubic-bezier(.55,-0.68,.48,1.682);
+    min-height: 9px; 
+}
+
+#taskbar button:hover {
+    background: @wb-hvr-bg;
+    color: @wb-hvr-color;
+    animation: tb_hover 20s ease-in-out 1;
+    transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
+}
+
+#clock {
+  color: @blue;
+  border-radius: 1rem;
+}
+
+#battery {
+  color: @green;
+}
+
+#battery.charging {
+  color: @green;
+}
+
+#battery.warning:not(.charging) {
+  color: @red;
+}
+
+#backlight {
+  color: @yellow;
+}
+
+#pulseaudio {
+  color: @maroon;
+  font-size: 15px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 20px;
+}
+
+
+#custom-powermenu{
+  margin-right: 20px;
+  background-color: #ffffff;
+  background-image: url("/home/crtvhlx/.config/waybar/img/kuromi-pwr.png");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover; 
+}
+
+#custom-launcher {
+  margin-left: 20px;
+  margin-right: 0px;
+  border-radius: 1rem 1rem 1rem 1rem;
+  background-color: @mauve;
+  background-image: url("/home/crtvhlx/.config/waybar/img/kuromi-startup.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+}
+
+#workspaces button.urgent {
+  color: @red;
+}
+
+
+
