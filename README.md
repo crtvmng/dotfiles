@@ -1,5 +1,5 @@
 
-# Dotfiles for my Hyprland +  
+# Dotfiles for my Hyprland + Catppuccin +   &nbsp; config
 ![image](https://github.com/user-attachments/assets/0f3056b8-8d89-4a99-a545-6d242b9820c6)
 <br/>
 
