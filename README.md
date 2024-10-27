@@ -13,8 +13,8 @@
 > ## power-menu
 > ![image](https://github.com/user-attachments/assets/cf6c9641-8f1a-496f-a196-6ac3cf88c1ba)
 
-> ## dmenu
-> ![image](https://github.com/user-attachments/assets/d72a96c0-557d-4610-a94e-3e9e20569a24)
+> ## rofi
+> ![image](https://github.com/user-attachments/assets/b19ae4ed-34e2-4569-9a99-191afc96df9e)
 
 ----
 <br/>
