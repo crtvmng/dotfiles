@@ -42,8 +42,9 @@ window#waybar {
 #workspaces button {
   color: @lavender;
   border-radius: 1rem;
-  padding: 0.4rem;
-  margin-right: 0.4rem;
+  padding-right: 1rem;
+  padding-left: 0.5rem;
+  border-color: transparent;
 }
 
 #workspaces button.active {
@@ -54,6 +55,7 @@ window#waybar {
 #workspaces button:hover {
   color: @sapphire;
   border-radius: 1rem;
+  background-color: @surface1;
 }
 
 #clock,
