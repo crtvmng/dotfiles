@@ -9,7 +9,7 @@ https://github.com/user-attachments/assets/70520112-dd7f-4b31-865a-eb05dd896dd6
 
 </details>
 
-# Dotfiles for my Hyprland + Catppuccin +   &nbsp; config
+# Dotfiles for my Hyprland + Catppuccin +  &nbsp;Arch
 <br/>
 
 ![image](https://github.com/user-attachments/assets/0f3056b8-8d89-4a99-a545-6d242b9820c6)
