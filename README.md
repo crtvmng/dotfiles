@@ -18,11 +18,7 @@
 - btop         as cpu monitor
 - pavucontrol  as audio manager
 - nvim (NeoVim)         as code editor         
-----
-
-
- 
-
+---- 
 
 ## power-menu
 ![image](https://github.com/user-attachments/assets/17bb78e2-f6ab-4668-a654-dbf0c3424422)
@@ -55,3 +51,9 @@
 # ⚠️ Warning!!!
 ### Change `crtvhlx` everywhere to your user's name if installation script didn't do that
 ### Also you need to put firefox config by yourself (script can't do that)
+
+
+<br/>
+<br/>
+
+> ### © rofi conig is base on this guy's configs https://github.com/adi1090x/rofi
