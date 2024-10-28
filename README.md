@@ -42,4 +42,4 @@
 
 # ⚠️ Warning!!!
 ### Change `crtvhlx` everywhere to your user's name if installation script didn't do that
-### Alsod you need to put firefox config by yourself (script can't do that)
+### Also you need to put firefox config by yourself (script can't do that)
