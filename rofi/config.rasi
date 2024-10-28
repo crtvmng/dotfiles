@@ -19,7 +19,7 @@ configuration {
 /*	cache-dir: ;*/
 	steal-focus: false;
 /*	dpi: -1;*/
-
+    terminal: "kitty";
 	/*---------- Matching setting ----------*/
 	matching: "normal";
 	tokenize: true;
@@ -82,7 +82,7 @@ configuration {
 	display-filebrowser: "Files";
 
 	/*---------- Misc setting ----------*/
-	terminal: "rofi-sensible-terminal";
+	terminal: "kitty";
 	font: "Mono 12";
 	sort: false;
 	threads: 0;
