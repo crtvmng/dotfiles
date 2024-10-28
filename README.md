@@ -18,7 +18,7 @@
 ----
 
 ## power-menu
-![image](https://github.com/user-attachments/assets/2e7b0b1f-ef33-4dee-91b1-7ab92b1039ed)
+![image](https://github.com/user-attachments/assets/17bb78e2-f6ab-4668-a654-dbf0c3424422)
 <br/>
 <br/>
 ## rofi (drun)
