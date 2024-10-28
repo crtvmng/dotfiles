@@ -15,11 +15,11 @@
 > ## power-menu
 > ![image](https://github.com/user-attachments/assets/2e7b0b1f-ef33-4dee-91b1-7ab92b1039ed)
 
-
-
 > ## rofi (drun)
 > ![image](https://github.com/user-attachments/assets/91fa1c68-a4d2-4267-af16-462f2c7c3331)
 
+> ## Lock Screen
+> ![2024-10-28-142345_hyprshot](https://github.com/user-attachments/assets/dd7b3d0d-4608-428b-8fd0-372e1f7bdbc9) 
 
 ----
 <br/>
