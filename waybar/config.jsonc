@@ -56,7 +56,7 @@
     "custom/launcher": {
         "interval": "once",
         "format": "    ",
-        "on-click": "wofi --show drun --columns 2 -I -s ~/.config/wofi/style.css",
+        "on-click": "/home/crtvhlx/.config/rofi/launchers/launcher.sh",
         "tooltip": false
       },
 
@@ -128,7 +128,7 @@
 
     "custom/powermenu": {
         "format": "    ",
-        "on-click": "bash ~/.config/wofi/wofi-power.sh",
+        "on-click": "/home/crtvhlx/.config/rofi/powermenu/powermenu.sh",
         "tooltip": false
     },
     "network": {
