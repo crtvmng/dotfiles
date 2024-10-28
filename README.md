@@ -13,10 +13,12 @@
 ----
 
 > ## power-menu
-> ![image](https://github.com/user-attachments/assets/cf6c9641-8f1a-496f-a196-6ac3cf88c1ba)
+> ![image](https://github.com/user-attachments/assets/fe0782b5-5508-46d8-92fe-742a7d951fbb)
 
-> ## rofi
-> ![image](https://github.com/user-attachments/assets/b19ae4ed-34e2-4569-9a99-191afc96df9e)
+
+> ## rofi (drun)
+> ![image](https://github.com/user-attachments/assets/91fa1c68-a4d2-4267-af16-462f2c7c3331)
+
 
 ----
 <br/>
