@@ -16,9 +16,10 @@ https://github.com/user-attachments/assets/70520112-dd7f-4b31-865a-eb05dd896dd6
 <br/>
 
 # Programs on the screen is:
-- Cava
-- Pipes.sh
+- cava
+- pipes.sh
 - tty-clock
+- nvim
 
 # Progrmas:
 - nm-tui       as WiFi manager
