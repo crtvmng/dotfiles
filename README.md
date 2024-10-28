@@ -10,6 +10,11 @@
 - Pipes.sh
 - tty-clock
 
+# Progrmas:
+- nm-tui       as WiFi manager
+- kitty        as terminal emulator
+- btop         as cpu monitor
+- pavucontrol  as audio manager
 ----
 
 ## power-menu
