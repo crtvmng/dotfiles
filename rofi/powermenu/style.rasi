@@ -52,31 +52,25 @@ mainbox {
 inputbar {
     enabled:                     true;
     spacing:                     0px;
-    padding:                     100px 80px;
+    padding:                     100px 100px;
     background-color:            transparent;
     background-image:            url("~/.config/rofi/images/kuromi-style-powermenu-image.jpg", width);
-    children:                    [ "textbox-prompt-colon", "dummy","prompt"];
+    children:                    ["dummy","prompt"];
 }
 
 dummy {
     background-color:            transparent;
+    margin-right: 40px;
 }
 
-textbox-prompt-colon {
-    enabled:                     true;
-    expand:                      false;
-    str:                         " System";
-    padding:                     12px;
-    border-radius:               12px;
-    background-color:            @urgent;
-    text-color:                  @background;
-}
+
 prompt {
     enabled:                     true;
     padding:                     12px;
     border-radius:               12px;
-    background-color:            @active;
-    text-color:                  @background;
+    background-color:            #11111b;
+    text-color:                  @selected;
+    padding:                     20px;
 }
 
 /*****----- Listview -----*****/
