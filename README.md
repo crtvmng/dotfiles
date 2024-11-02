@@ -19,7 +19,7 @@ https://github.com/user-attachments/assets/876ee298-01cf-4a7b-9d7d-ce33e6d7fe4b
 # Dotfiles for my Hyprland + Catppuccin + Arch(EndeavourOS)
 <br/>
 
-![image](https://github.com/user-attachments/assets/ecf67dc6-5d6a-4add-886e-54061c29afa2)
+![2024-11-02-213152_hyprshot](https://github.com/user-attachments/assets/cbd1a3fc-9db8-4f1e-98b4-a6e3fbe94418)
 <br/>
 
 # Programs on the screen is:
