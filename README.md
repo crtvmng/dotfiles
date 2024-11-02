@@ -4,15 +4,22 @@
 <details>
  <summary><b><code>Preview</code></b></summary>
 
-https://github.com/user-attachments/assets/70520112-dd7f-4b31-865a-eb05dd896dd6
+
+
+
+https://github.com/user-attachments/assets/876ee298-01cf-4a7b-9d7d-ce33e6d7fe4b
+
+
 
 
 </details>
 
+
+
 # Dotfiles for my Hyprland + Catppuccin + Arch
 <br/>
 
-![image](https://github.com/user-attachments/assets/0f3056b8-8d89-4a99-a545-6d242b9820c6)
+![image](https://github.com/user-attachments/assets/ecf67dc6-5d6a-4add-886e-54061c29afa2)
 <br/>
 
 # Programs on the screen is:
@@ -26,7 +33,24 @@ https://github.com/user-attachments/assets/70520112-dd7f-4b31-865a-eb05dd896dd6
 - kitty        as terminal emulator
 - btop         as cpu monitor
 - pavucontrol  as audio manager
-- nvim (NeoVim)         as code editor         
+- nvim (NeoVim)         as code editor
+
+# Dependencies
+- cava
+- networkmanager-iwd
+- pipes.sh
+- hyprland
+- rofi
+- wofi
+- waybar
+- neovim (with lazy)
+- python3 nodejs go rust gcc clang(d) lua (for neovim) // I don't know if you need all of them but maybe for neovim.
+- kitty as a terminal
+- hyprpaper
+- hyprlock
+- thunar (you can change it in hyprland.conf -> line 20)
+- swaync
+- hyprshot
 ---- 
 
 ## power-menu
@@ -61,8 +85,14 @@ https://github.com/user-attachments/assets/70520112-dd7f-4b31-865a-eb05dd896dd6
 ### Change `crtvhlx` everywhere to your user's name if installation script didn't do that
 ### Also you need to put firefox config by yourself (script can't do that)
 
-
 <br/>
 <br/>
 
 > ### © rofi conig is base on this guy's configs https://github.com/adi1090x/rofi
+
+<br/>
+<br/>
+<br/>
+
+# ⚠️ If there is an errror with deps that i didn't mention or some other errro please let me know.
+
