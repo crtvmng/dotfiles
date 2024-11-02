@@ -16,7 +16,7 @@ https://github.com/user-attachments/assets/876ee298-01cf-4a7b-9d7d-ce33e6d7fe4b
 
 
 
-# Dotfiles for my Hyprland + Catppuccin + Arch
+# Dotfiles for my Hyprland + Catppuccin + Arch(EndeavourOS)
 <br/>
 
 ![image](https://github.com/user-attachments/assets/ecf67dc6-5d6a-4add-886e-54061c29afa2)
