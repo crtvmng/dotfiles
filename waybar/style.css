@@ -20,7 +20,7 @@ window#waybar {
 }
 
 #workspaces {
-  border-radius: 1rem;
+  border-radius: .31rem;
   margin: 5px;
   margin-left: 0;
   background-color: @surface0;
@@ -30,7 +30,7 @@ window#waybar {
 
 #workspaces button {
   color: @lavender;
-  border-radius: 1rem;
+  border-radius: .31rem;
   padding-right: 1rem;
   padding-left: 0.5rem;
   border-color: transparent;
@@ -38,7 +38,7 @@ window#waybar {
 
 #workspaces button.active {
   color: #fff;
-  border-radius: 1rem;
+  border-radius: .31rem;
 }
 
 #workspaces button:hover {
@@ -165,7 +165,7 @@ window#waybar {
 #custom-launcher {
   margin-left: 20px;
   margin-right: 0px;
-  border-radius: 1rem;
+  border-radius: .31rem;
   background-color: @mauve;
   background-image: url("/home/crtvhlx/.config/waybar/img/kuromi-startup.jpg");
   background-repeat:no-repeat;
