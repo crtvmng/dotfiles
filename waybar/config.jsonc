@@ -70,7 +70,7 @@
     "pulseaudio": {
 	    "format": "{icon}",
         "rotate": 0,
-        "format-muted": "婢",
+        "format-muted": "婢 ",
         "tooltip-format": "{icon} {desc} -> {volume}%",
         "scroll-step": 5,
         "format-icons": {
@@ -82,6 +82,7 @@
             "car": "",
          "default": ["", "", ""]
         },
+        "on-click-right":"pactl set-sink-mute @DEFAULT_SINK@ toggle",
         "on-click": "pavucontrol"
     },
 

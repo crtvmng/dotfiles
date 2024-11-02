@@ -37,6 +37,7 @@ window#waybar {
   margin-left: 0;
   background-color: @surface0;
   margin-left: 1rem;
+  box-shadow: rgba(17, 17, 27, 0.35) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 #workspaces button {
@@ -70,6 +71,7 @@ window#waybar {
   padding: 0.5rem 1rem;
   border-radius: 1rem;
   margin: 5px 0;
+  box-shadow: rgba(17, 17, 27, 0.35) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 #taskbar {
@@ -80,6 +82,7 @@ window#waybar {
 }
 
 #taskbar button {
+    box-shadow: rgba(17, 17, 27, 0.35) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     box-shadow: none;
 	text-shadow: none;
 	font-size: 4px;
@@ -110,6 +113,7 @@ window#waybar {
     color: @wb-hvr-color;
     animation: tb_hover 20s ease-in-out 1;
     transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
+    border-radius: 1rem;
 }
 
 #clock {
@@ -148,18 +152,21 @@ window#waybar {
   background-image: url("/home/crtvhlx/.config/waybar/img/kuromi-pwr.png");
   background-repeat:no-repeat;
   background-position:center;
-  background-size:cover; 
+  background-size:cover;
+  
+  box-shadow: rgba(17, 17, 27, 0.15) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.1) 0px 18px 36px -18px inset;
 }
 
 #custom-launcher {
   margin-left: 20px;
   margin-right: 0px;
-  border-radius: 1rem 1rem 1rem 1rem;
+  border-radius: 1rem;
   background-color: @mauve;
   background-image: url("/home/crtvhlx/.config/waybar/img/kuromi-startup.jpg");
   background-repeat:no-repeat;
   background-position:center;
   background-size:cover;
+  box-shadow: rgba(17, 17, 27, 0.15) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.1) 0px 18px 36px -18px inset;
 }
 
 #workspaces button.urgent {
