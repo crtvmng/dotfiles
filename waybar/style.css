@@ -8,27 +8,15 @@
 }
 
 #modules-left {
-  /*border-left: 10px #ffffff;*/
 }
 
-#window{
-  border-radius: 1rem;
-  background-color: @surface0;
-  margin-right: 20px;
-  margin-left: 0px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
+#window{}
 
 #modules-right {
-  border-left: 10px #ffffff;
 }
 
 window#waybar {
-  background-color: rgba(0,0,0,0); 
-  border-radius: 10px;
-  margin-right: 20px;
-  margin-left: 20px;
+  background-color: rgba(30,30,46,0); 
 }
 
 #workspaces {
@@ -37,8 +25,8 @@ window#waybar {
   margin-left: 0;
   background-color: @surface0;
   margin-left: 1rem;
-  box-shadow: rgba(17, 17, 27, 0.35) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
+
 
 #workspaces button {
   color: @lavender;
@@ -69,25 +57,25 @@ window#waybar {
 #custom-powermenu{
   background-color: @surface0;
   padding: 0.5rem 1rem;
-  border-radius: 1rem;
+  border-radius: .31rem;
   margin: 5px 0;
-  box-shadow: rgba(17, 17, 27, 0.35) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 #taskbar {
   background-color: @surface0;
-  border-radius: 1rem;
+  border-radius: .31rem;
   margin: 5px;
   margin-left: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 #taskbar button {
-    box-shadow: rgba(17, 17, 27, 0.35) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     box-shadow: none;
 	text-shadow: none;
 	font-size: 4px;
     padding: 0px;
-    border-radius: 1rem;
+    border-radius: .31rem;
     background-color: @surface0;
     margin-left: 0px;
     padding-left: 3px;
@@ -104,7 +92,7 @@ window#waybar {
     background-color: @surface1;
     padding-right: 12px;
     animation: tb_active 20s ease-in-out 1;
-    transition: all 0.4s cubic-bezier(.55,-0.68,.48,1.682);
+    transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
     min-height: 9px; 
 }
 
@@ -113,12 +101,16 @@ window#waybar {
     color: @wb-hvr-color;
     animation: tb_hover 20s ease-in-out 1;
     transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
-    border-radius: 1rem;
+    border-radius: .31rem;
+
+    color: @sapphire;
+    border-radius: .61rem;
+    background-color: @surface1;
+    border-color: @sapphire;
 }
 
 #clock {
   color: @blue;
-  border-radius: 1rem;
 }
 
 #battery {
@@ -153,8 +145,21 @@ window#waybar {
   background-repeat:no-repeat;
   background-position:center;
   background-size:cover;
+  border-radius: 0.31rem;
   
-  box-shadow: rgba(17, 17, 27, 0.15) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.1) 0px 18px 36px -18px inset;
+
+  color: transparent;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+#custom-powermenu:hover {
+  border: 1px;
+  border-color: @mauve;
+  background-image: none;
+  background-color: @crust;
+  transition: all .2s;
+  color: @saphire;
 }
 
 #custom-launcher {
@@ -166,7 +171,19 @@ window#waybar {
   background-repeat:no-repeat;
   background-position:center;
   background-size:cover;
-  box-shadow: rgba(17, 17, 27, 0.15) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.1) 0px 18px 36px -18px inset;
+
+  color: transparent;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+#custom-launcher:hover {
+  border: 1px;
+  border-radius: .31rem;
+  border-color: @mauve;
+  background-image: none;
+  background-color: @crust;
+  transition: all .2s;
+  color: @saphire;
 }
 
 #workspaces button.urgent {

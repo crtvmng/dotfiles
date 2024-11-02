@@ -3,7 +3,7 @@
     "layer": "top",
     "position": "top",
     "output": "eDP-1",
-    "spacing": 5,
+    "spacing": 3,
     "modules-left": ["custom/launcher", "wlr/taskbar"],
     "modules-center": ["hyprland/workspaces"],
     "modules-right": ["custom/cava_mviz", "pulseaudio", "network", "battery", "clock", "custom/powermenu"],
@@ -39,23 +39,23 @@
         //"format": "<span  weight='bold' >{class}</span>",
         "max-length": 120,
         "icon": false,
-        "icon-size": 13,
+        "icon-size": 12
     },
 
     "hyprland/workspaces": {
         "persistent-workspaces": {
-            "*" : 3,
+            "*" : 3
         },
         "format": "{icon}",
         "format-icons": {
             "default": "",
-	        "active": "",
+	        "active": ""
         }
     },
     
     "custom/launcher": {
         "interval": "once",
-        "format": "    ",
+        "format": "   ",
         "on-click": "/home/crtvhlx/.config/rofi/launchers/launcher.sh",
         "tooltip": false
       },
@@ -70,7 +70,7 @@
     "pulseaudio": {
 	    "format": "{icon}",
         "rotate": 0,
-        "format-muted": "婢 ",
+        "format-muted": "婢",
         "tooltip-format": "{icon} {desc} -> {volume}%",
         "scroll-step": 5,
         "format-icons": {
@@ -99,7 +99,6 @@
         "format-alt": "<<span weight='bold' color='#c2864a'>{time} <span weight='bold' color='white'>| <span weight='bold' color='#82d457'>{capacity}%</span></span></span>",
         "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
         "on-click-right": "pkill waybar & hyprctl dispatch exec waybar",
-      //  "format-icons": [<i class='fa-solid fa-wifi-slash'></i>], 
     },
 
     "clock": {
@@ -128,7 +127,7 @@
     },
 
     "custom/powermenu": {
-        "format": "    ",
+        "format": "    ",
         "on-click": "/home/crtvhlx/.config/rofi/powermenu/powermenu.sh",
         "tooltip": false
     },
@@ -143,7 +142,6 @@
         "format-linked": "󰈀 {ifname} (No IP)",
         "format-disconnected": " ",
         "tooltip-format-disconnected": "Disconnected",
-        "on-click": "nmtui",
         "interval": 2,
         "on-click": "kitty --class nmwui nmtui"
     }
