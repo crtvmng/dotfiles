@@ -1,5 +1,5 @@
 {
-    "height": 50, 
+    "height": 20, 
     "layer": "top",
     "position": "top",
     "output": "eDP-1",
@@ -49,7 +49,7 @@
         "format": "{icon}",
         "format-icons": {
             "default": "",
-	        "active": ""
+	        "active": "  "
         }
     },
     
@@ -70,7 +70,7 @@
     "pulseaudio": {
 	    "format": "{icon}",
         "rotate": 0,
-        "format-muted": "婢",
+        "format-muted": " 婢",
         "tooltip-format": "{icon} {desc} -> {volume}%",
         "scroll-step": 5,
         "format-icons": {
@@ -80,7 +80,7 @@
             "phone": "",
             "portable": "",
             "car": "",
-         "default": ["", "", ""]
+         "default": ["  ", "  ", "  "]
         },
         "on-click-right":"pactl set-sink-mute @DEFAULT_SINK@ toggle",
         "on-click": "pavucontrol"
@@ -127,7 +127,7 @@
     },
 
     "custom/powermenu": {
-        "format": "    ",
+        "format": "",
         "on-click": "/home/crtvhlx/.config/rofi/powermenu/powermenu.sh",
         "tooltip": false
     },

@@ -2,7 +2,7 @@
 
 * {
   font-family: "JetBrains Mono Nerd Font";
-  font-size: 17px;
+  font-size: 12px;
   min-height: 0;
   margin: 0;
 }
@@ -20,7 +20,7 @@ window#waybar {
 }
 
 #workspaces {
-  border-radius: .31rem;
+  border-radius: .4rem;
   margin: 5px;
   margin-left: 0;
   background-color: @surface0;
@@ -29,7 +29,7 @@ window#waybar {
 
 
 #workspaces button {
-  color: @lavender;
+  color: @mauve;
   border-radius: .31rem;
   padding-right: 1rem;
   padding-left: 0.5rem;
@@ -38,13 +38,16 @@ window#waybar {
 
 #workspaces button.active {
   color: #fff;
-  border-radius: .31rem;
+  border-radius: .3rem;
+  color: @crust;
+  background-color: @mauve;
+  transition: all .4s;
 }
 
 #workspaces button:hover {
   color: @sapphire;
-  border-radius: 1rem;
-  background-color: @surface1;
+  border-radius: .31rem;
+  background-color: @base;
 }
 
 #clock,
@@ -140,15 +143,12 @@ window#waybar {
 
 #custom-powermenu{
   margin-right: 20px;
-  background-color: #ffffff;
-  background-image: url("/home/crtvhlx/.config/waybar/img/kuromi-pwr.png");
-  background-repeat:no-repeat;
-  background-position:center;
+  background-color: @surface0;
   background-size:cover;
   border-radius: 0.31rem;
   
 
-  color: transparent;
+  color: @saphire;
 
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
