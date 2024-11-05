@@ -142,7 +142,7 @@ window#waybar {
 
 
 #custom-powermenu{
-  margin-right: 20px;
+  margin-right: 10px;
   background-color: @surface0;
   background-size:cover;
   border-radius: 0.31rem;
@@ -163,7 +163,7 @@ window#waybar {
 }
 
 #custom-launcher {
-  margin-left: 20px;
+  margin-left: 10px;
   margin-right: 0px;
   border-radius: .31rem;
   background-color: @mauve;
