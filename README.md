@@ -1,25 +1,8 @@
-# Kuromi Hyprland (A little bit of Astolfo)
-<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fbe%2F76%2Fa8%2Fbe76a8d6438c8ce778a017c6ff7aedbb.png&f=1&nofb=1&ipt=ae7e0373b56d4b5a437915e5112a4c2a79f61e71f0f646bfbd9ef0e09fa12d0f&ipo=images" alt="drawing" width="200"/>
-
-<details>
- <summary><b><code>Preview</code></b></summary>
-
-
-
-
-https://github.com/user-attachments/assets/876ee298-01cf-4a7b-9d7d-ce33e6d7fe4b
-
-
-
-
-</details>
-
-
-
 # Dotfiles for my Hyprland + Catppuccin + Arch(EndeavourOS)
 <br/>
 
-![2024-11-02-213152_hyprshot](https://github.com/user-attachments/assets/cbd1a3fc-9db8-4f1e-98b4-a6e3fbe94418)
+![2024-11-07-034539_hyprshot](https://github.com/user-attachments/assets/0670360d-8a51-4bdb-97a0-603cf63470cb)
+
 <br/>
 
 # Programs on the screen is:
