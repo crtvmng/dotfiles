@@ -34,11 +34,12 @@ window {
 
     /* properties for all widgets */
     enabled:                     true;
+    cursor:                      "default";
+    background-color:            @background;
+
     border-radius:               5px;
     border:                      3px;
     border-color:                @selected;
-    cursor:                      "default";
-    background-color:            @background;
 }
 
 /*****----- Main Box -----*****/
@@ -51,9 +52,9 @@ mainbox {
 }
 
 imagebox {
-    padding:                     20px;
+    padding:                     10px;
     background-color:            transparent;
-    background-image:            url("~/.config/rofi/images/astolfo-rofi.jpg", height);
+    background-image:            url("~/.config/rofi/images/skull-rofi.png", height);
     orientation:                 vertical;
     children:                    [ "inputbar", "dummy", "mode-switcher" ];
 }

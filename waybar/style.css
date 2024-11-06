@@ -4,7 +4,7 @@
   font-family: "JetBrains Mono Nerd Font";
   font-size: 12px;
   min-height: 0;
-  margin: 0;
+  margin: 0; 
 }
 
 #modules-left {
@@ -16,15 +16,34 @@
 }
 
 window#waybar {
-  background-color: rgba(30,30,46,0); 
+  background-color: rgba(30,30,46,0);
+  margin: 0;
+  padding: 0;
+}
+
+window#waybar>box{
+  border-radius: 0.31rem;
+  margin: 0 10px;
+  margin-top: 3px;
+  padding: 3px;
+  background-color: rgba(17, 17, 27, 0.4);
+
+
+
+
+  box-shadow: rgba(203, 166, 247, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
 }
 
 #workspaces {
   border-radius: .4rem;
-  margin: 5px;
+  
   margin-left: 0;
   background-color: @surface0;
   margin-left: 1rem;
+
+  border: 2px solid;
+  border-color: @mauve;
+  padding: 2px;
 }
 
 
@@ -59,57 +78,12 @@ window#waybar {
 #custom-cava_mviz,
 #custom-powermenu{
   background-color: @surface0;
-  padding: 0.5rem 1rem;
+  padding: 0.3rem 0.8rem;
   border-radius: .31rem;
-  margin: 5px 0;
+  padding: 5px 15px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-}
 
-#taskbar {
-  background-color: @surface0;
-  border-radius: .31rem;
-  margin: 5px;
-  margin-left: 1rem;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-}
-
-#taskbar button {
-    box-shadow: none;
-	text-shadow: none;
-	font-size: 4px;
-    padding: 0px;
-    border-radius: .31rem;
-    background-color: @surface0;
-    margin-left: 0px;
-    padding-left: 3px;
-    padding-right: 3px;
-    margin-right: 0px;
-    color: @wb-color;
-    animation: tb_normal 20s ease-in-out 1;
-}
-
-#taskbar button.active {
-    background: @wb-act-bg;
-    color: @wb-act-color;
-    padding-left: 12px;
-    background-color: @surface1;
-    padding-right: 12px;
-    animation: tb_active 20s ease-in-out 1;
-    transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
-    min-height: 9px; 
-}
-
-#taskbar button:hover {
-    background: @wb-hvr-bg;
-    color: @wb-hvr-color;
-    animation: tb_hover 20s ease-in-out 1;
-    transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
-    border-radius: .31rem;
-
-    color: @sapphire;
-    border-radius: .61rem;
-    background-color: @surface1;
-    border-color: @sapphire;
+  border: 2px solid;
 }
 
 #clock {
@@ -142,20 +116,22 @@ window#waybar {
 
 
 #custom-powermenu{
-  margin-right: 10px;
+  margin-right: 0px;
   background-color: @surface0;
   background-size:cover;
   border-radius: 0.31rem;
   
-
   color: @saphire;
 
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+ 
+  
+  border: 2px solid;
+  padding: 0rem 2rem;
+  border-color: @mauve;
 }
 
 #custom-powermenu:hover {
-  border: 1px;
-  border-color: @mauve;
   background-image: none;
   background-color: @crust;
   transition: all .2s;
@@ -163,7 +139,9 @@ window#waybar {
 }
 
 #custom-launcher {
-  margin-left: 10px;
+  border: 2px solid @mauve;
+
+  margin-left: 0px;
   margin-right: 0px;
   border-radius: .31rem;
   background-color: @mauve;
@@ -177,7 +155,6 @@ window#waybar {
 }
 
 #custom-launcher:hover {
-  border: 1px;
   border-radius: .31rem;
   border-color: @mauve;
   background-image: none;

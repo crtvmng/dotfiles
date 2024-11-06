@@ -4,7 +4,7 @@
     "position": "top",
     "output": "eDP-1",
     "spacing": 3,
-    "modules-left": ["custom/launcher", "wlr/taskbar"],
+    "modules-left": ["custom/launcher"],
     "modules-center": ["hyprland/workspaces"],
     "modules-right": ["custom/cava_mviz", "pulseaudio", "network", "battery", "clock", "custom/powermenu"],
 
