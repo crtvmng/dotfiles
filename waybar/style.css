@@ -50,8 +50,8 @@ window#waybar>box{
 #workspaces button {
   color: @mauve;
   border-radius: .31rem;
-  padding-right: 1rem;
-  padding-left: 0.5rem;
+  padding-right: 0.8rem;
+  padding-left: 0.48rem;
   border-color: transparent;
 }
 
@@ -59,8 +59,10 @@ window#waybar>box{
   color: #fff;
   border-radius: .3rem;
   color: @crust;
+  padding-right: 1rem;
+  padding-left: 0.6rem;
   background-color: @mauve;
-  transition: all .4s;
+  transition: all .1s linear;
 }
 
 #workspaces button:hover {
