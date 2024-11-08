@@ -4,7 +4,7 @@
     "position": "top",
     "output": "eDP-1",
     "spacing": 3,
-    "modules-left": ["custom/launcher"],
+    "modules-left": ["custom/launcher", "hyprland/window"],
     "modules-center": ["hyprland/workspaces"],
     "modules-right": ["custom/cava_mviz", "pulseaudio", "network", "battery", "clock", "custom/powermenu"],
 
@@ -14,7 +14,7 @@
         "format": "{}",
         "on-click": "kitty cava"
     }, 
-
+    
     "wlr/taskbar": {
         "format": "{icon}",
         "icon-size": 20,

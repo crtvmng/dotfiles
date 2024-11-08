@@ -10,7 +10,7 @@
 #modules-left {
 }
 
-#window{}
+
 
 #modules-right {
 }
@@ -44,6 +44,7 @@ window#waybar>box{
   border: 2px solid;
   border-color: @mauve;
   padding: 2px;
+  background-color: rgba(17, 17, 27, 0.4);
 }
 
 
@@ -78,13 +79,15 @@ window#waybar>box{
 #custom-launcher,
 #cpu,
 #custom-cava_mviz,
-#custom-powermenu{
+#custom-powermenu,
+#window{
   background-color: @surface0;
   padding: 0.3rem 0.8rem;
   border-radius: .31rem;
   padding: 5px 15px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 
+  background-color: rgba(17, 17, 27, 0.8);
   border: 2px solid;
 }
 
@@ -119,7 +122,6 @@ window#waybar>box{
 
 #custom-powermenu{
   margin-right: 0px;
-  background-color: @surface0;
   background-size:cover;
   border-radius: 0.31rem;
   
@@ -160,7 +162,7 @@ window#waybar>box{
   border-radius: .31rem;
   border-color: @mauve;
   background-image: none;
-  background-color: @crust;
+  background-color: rgba(17, 17, 27, 0.7);
   transition: all .2s;
   color: @saphire;
 }
@@ -174,5 +176,10 @@ window#waybar>box{
   padding: 0 10px;
   color: @mauve;
   padding: 0 5px;
-  background-color: @surface0;
+}
+
+#window{
+    color: @mauve;
+    font-weight: bold;
+    background-color: rgba(17, 17, 27, 0.4);
 }

@@ -53,7 +53,7 @@ mainbox {
 imagebox {
     padding:                     20px;
     background-color:            transparent;
-    background-image:            url("~/.config/rofi/images/astolfo-rofi.jpg", height);
+    background-image:            url("~/.config/rofi/images/dmenu-rofi.jpg", width);
     orientation:                 vertical;
     children:                    [ "inputbar", "dummy", "mode-switcher" ];
 }
