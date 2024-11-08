@@ -58,7 +58,7 @@ window#waybar>box{
 
 #workspaces button.active {
   color: #fff;
-  border-radius: .3rem;
+  border-radius: .31rem;
   color: @crust;
   padding-right: 1rem;
   padding-left: 0.6rem;
@@ -66,10 +66,16 @@ window#waybar>box{
   transition: all .1s linear;
 }
 
+#workspaces button.active:hover {
+    color: @sapphire;
+    border-radius: .31rem;
+    background-color: @base;
+}
+
 #workspaces button:hover {
   color: @sapphire;
   border-radius: .31rem;
-  background-color: @base;
+  /*background-color: @base;*/
 }
 
 #clock,
