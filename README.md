@@ -1,7 +1,8 @@
 # Dotfiles for my Hyprland + Catppuccin + Arch(EndeavourOS)
 <br/>
 
-![2024-11-07-034539_hyprshot](https://github.com/user-attachments/assets/0670360d-8a51-4bdb-97a0-603cf63470cb)
+![image](https://github.com/user-attachments/assets/fbdb685e-01b3-4a53-a8fc-e69e2af5f135)
+
 
 <br/>
 
@@ -41,7 +42,7 @@
 <br/>
 <br/>
 ## rofi (drun)
-![image](https://github.com/user-attachments/assets/0fc8dd8d-4d9c-4268-b0a7-c6f094e24703)
+![image](https://github.com/user-attachments/assets/b91cc507-25b6-4a80-b7dc-d26b874c051a)
 <br/>
 <br/>
 ## Lock Screen
