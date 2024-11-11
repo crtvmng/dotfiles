@@ -51,7 +51,8 @@
 ----
 
 ## Mozilla Firefox tabs config
-![image](https://github.com/user-attachments/assets/a8931aa3-7451-448b-9ae8-e02fd5de9166)
+![image](https://github.com/user-attachments/assets/93eaa02e-a201-483b-8f3c-3c751a4b9fbd)
+
 
 ###  Insctruction for installing this to mozilla (got from https://superuser.com/questions/1495946/how-do-i-change-the-background-image-of-home-page-in-firefox)
 
@@ -73,6 +74,7 @@
 <br/>
 
 > ### © rofi conig is base on this guy's configs https://github.com/adi1090x/rofi
+> ### © firefox config is this guy's config https://github.com/migueravila/SimpleFox
 
 <br/>
 <br/>
