@@ -51,7 +51,8 @@
 ----
 
 ## Mozilla Firefox tabs config
-![image](https://github.com/user-attachments/assets/93eaa02e-a201-483b-8f3c-3c751a4b9fbd)
+![image](https://github.com/user-attachments/assets/d7fdd0f5-75c5-40e7-8db5-53ea2cb668d3)
+
 
 
 ###  Insctruction for installing this to mozilla (got from https://superuser.com/questions/1495946/how-do-i-change-the-background-image-of-home-page-in-firefox)
