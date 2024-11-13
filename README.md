@@ -46,7 +46,7 @@
 <br/>
 <br/>
 ## Lock Screen
-![2024-10-28-142345_hyprshot](https://github.com/user-attachments/assets/dd7b3d0d-4608-428b-8fd0-372e1f7bdbc9) 
+![image](https://github.com/user-attachments/assets/2bbfc9ad-dced-4218-ad83-4e4013b0b64b)
 
 ----
 
