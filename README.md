@@ -12,7 +12,7 @@
 - tty-clock
 - nvim
 
-# Progrmas:
+# Programs:
 - nm-tui       as WiFi manager
 - kitty        as terminal emulator
 - btop         as cpu monitor
